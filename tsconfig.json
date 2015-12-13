@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs"
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "./**/*.ts",
+    "./**/*.tsx",
+    "!./node_modules/**/*"
+  ],
+  "files": [
+    "./typings/tsd.d.ts",
+    "./src/alt.ts",
+    "./src/services/DiscogsArtistReleasesApiService.ts",
+    "./src/actions/DiscogsArtistReleasesActions.ts",
+    "./src/stores/DiscogsArtistReleasesStore.ts",
+    "./src/components/DiscogsArtistReleases.tsx",
+    "./src/components/DiscogsArtistReleasesList.tsx",
+    "./src/models/GetReleasesResponse.ts",
+    "./src/models/Release.ts",
+    "./src/main.tsx"
+  ]
+}
